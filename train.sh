@@ -2,4 +2,4 @@
 
 CONFIG=$1
 
-python basicsr/train.py -opt $CONFIG
+python3 basicsr/train.py -opt $CONFIG
