@@ -24,7 +24,7 @@ datasets:
     batch_size_per_gpu: 1
 
     ### -------------Progressive training--------------------------
-    mini_batch_sizes: [16]             # Batch size per gpu   
+    mini_batch_sizes: [32]             # Batch size per gpu   
     iters: [300000]
     gt_size: 384   # Max patch size for progressive training
     gt_sizes: [128,160,192,256,320,384]  # Patch sizes for progressive training.
